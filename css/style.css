@@ -5,6 +5,9 @@ h1{
 			text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
 }
 
+.bookSummaryDiv{
+  padding: 50px 0px;
+}
 
 a:hover {
   text-decoration: none;
@@ -19,8 +22,16 @@ button a{
 }
 */
 
+a.link_text_color{
+  color: #000000;
+}
+
+a.link_text_color:hover{
+  color: #9e199e;
+}
+
 .carousel-item{
-  background-color: rgb(36, 12, 63); 
+  background-color: #000; 
   text-align: center;
 }
 
