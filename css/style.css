@@ -18,6 +18,12 @@ button a{
   margin-right: 10px;
 }
 */
+
+.carousel-item{
+  background-color: rgb(36, 12, 63); 
+  text-align: center;
+}
+
 .writeReview {
   float: right;
   width: 300px;
