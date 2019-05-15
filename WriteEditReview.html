@@ -40,94 +40,51 @@
     </div>
   </nav>
 
+
+  <h1>Write Your Own Review</h1>
+
   <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <p>Write your review!</p>
-        <form name="sentMessage" id="contactForm" novalidate>
-          <select class="form-control">
-            <option>Select</option>
-            <option>Throne of Glass</option>
-            <option>Shadow and Bone</option>
-            <option>Rebel of the Sands</option>
-            <option>To kill a mockingbird</option>
-            <option>Lord of the flies</option>
-            <option>Hunger games</option>
-            <option>Fangirl</option>
-            <option>Six of Crows</option>
-            <option>A Court of Thorns and Roses</option>
-          </select>
-
-          <div class="control-group">
-            <div class="form-group floating-label-form-group controls">
-              <label>Title</label>
-                <select class="form-control">
-                <option>Title</option>
-                <option>Throne of Glass</option>
-                <option>Shadow and Bone</option>
-                <option>Rebel of the Sands</option>
-                <option>To kill a mockingbird</option>
-                <option>Lord of the flies</option>
-                <option>Hunger games</option>
-                <option>Fangirl</option>
-                <option>Six of Crows</option>
-                <option>A Court of Thorns and Roses</option>
-              </select>
-              <p class="help-block text-danger"></p>    
-            </div>
-          </div>
-
-          <div class="control-group">
-            <div class="form-group floating-label-form-group controls">
-              <label>Title</label>
-              <input type="text" class="form-control" placeholder="Title" id="title" required data-validation-required-message="Please enter the book title.">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-
-          <div class="control-group">
-            <div class="form-group floating-label-form-group controls">
-              <label>Author</label>
-              <input type="text" class="form-control" placeholder="Author" id="author" required data-validation-required-message="Please enter the book's author.">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-
-          <div class="control-group">
-            <div class="form-group floating-label-form-group controls">
-              <label>UserName</label>
-              <input type="text" class="form-control" placeholder="User name" id="username" required data-validation-required-message="Please enter the book title.">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-
-          <div class="control-group">
-              <div class="form-group floating-label-form-group controls">
-                <label>Review</label>
-                <textarea rows="5" class="form-control" placeholder="Review" id="review" required data-validation-required-message="Please write your review."></textarea>
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <br>
-            <div id="success"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                      <button type="button" class="btn btn-outline-secondary writeReview">
-                          <a href="homepage.html">Post</a>
-                      </button>
-                    </div>
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <p>Here is the place to express your toughts!</p>
+            <form>
+                <div class="contact_form_box">
+                    <input type="image" src="img/users/imgDefault.jpg" alt="Submit Form" />
                 </div>
-            </div>
-
-        </form>
-      </div>
-    </div>
+                <div class="contact_form_box">
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="contact_form_box">
+                    <select name="books">
+                        <option value="lotf">Lord of the Flies</option>
+                        <option value="dofab">Daughter of Smoke and Bone</option>
+                        <option value="sab">Shadow and Bone</option>
+                        <option value="l">Legend</option>
+                      </select>
+                </div>
+                <div class="contact_form_box">
+                    <select name="authors">
+                        <option value="WG">William Golding</option>
+                        <option value="LT">Laini Taylor</option>
+                        <option value="LB">Leigh Bardugo</option>
+                        <option value="ML">Marie Lu</option>
+                      </select>
+                </div>
+                <div class="contact_form_box">
+                    <textarea rows="5" placeholder="Review"></textarea>
+                </div>
+                <div class="container">
+                        <div class="row">
+                            <div class="col resize_form_box">
+                              <button type="button" class="btn btn-outline-secondary writeReview">
+                                  <a href="homepage.html">Post</a>
+                              </button>
+                            </div>
+                        </div>
+                    </div>
+            </form>
+        </div>
   </div>
-  <br>
-  <br>
-  <br>
-
+ 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
