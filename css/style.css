@@ -17,6 +17,10 @@ a:hover {
 button a{
   color: #9e199e;
 }
+
+button:hover a{
+  color: #ffeaf8;
+}
 /*.container {
   margin-right: 10px;
 }
@@ -62,6 +66,10 @@ a.link_text_color:hover{
 .resize {
     width:100px;
     max-width: 100%;
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img {
@@ -70,11 +78,11 @@ img {
 
 h3 {
     font-size: 1.2rem;
+    text-align: center;
 }
   
   .contact_form_box {
     font-size: 15px;
-    position: relative;
     margin-bottom: 15px;
     padding-bottom: 0.5em;
     border-bottom: 1px solid #dee2e6;
@@ -83,21 +91,32 @@ h3 {
   .contact_form_box input,
   .contact_form_box select,
   .contact_form_box textarea {
+    
+    width: 100%;
     font-size: 1.5em;
-    position: relative;
-    z-index: 1;
     padding: 0;
     resize: none;
     border: none;
     font-family: 'Lora', 'Times New Roman', serif;
   }
 
-  .contact_form_box input::-webkit-input-placeholder,
-  .contact_form_box textarea::-webkit-input-placeholder {
-    color: #868e96;
-    font-family: 'Lora', 'Times New Roman', serif;
+  .contact_form_box input[type=image]{
+    width: 225px;
+  }
+  .navbar-brand {
+    width: 40px;
   }
 
 .resize_form_box{
   margin: 20px 0px 20px 0px;
+}
+
+h3 .centered{
+  text-align: center
+}
+
+.img_center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

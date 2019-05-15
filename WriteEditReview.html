@@ -19,11 +19,8 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="homepage.html">Logo</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <a class="navbar-brand" href="homepage.html"><img src="img/Icon_Logo.svg" alt="Home Page"></a>
+
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <form class="form-inline my-2 my-lg-0">
@@ -48,13 +45,16 @@
             <p>Here is the place to express your toughts!</p>
             <form>
                 <div class="contact_form_box">
-                    <input type="image" src="img/users/imgDefault.jpg" alt="Submit Form" />
+                    <input type="image" src="img/users/imgDefault.jpg" alt="Submit">
+                    <br>
+                    <input type="file" name="fileupload" value="fileupload" id="fileupload">
+                    <label for="fileupload"> Select a file to upload</label>
                 </div>
                 <div class="contact_form_box">
                     <input type="text" placeholder="Name">
                 </div>
-                <div class="contact_form_box">
-                    <select name="books">
+                <div class="contact_form_box input-box">
+                    <select class="input_box" name="books">
                         <option value="lotf">Lord of the Flies</option>
                         <option value="dofab">Daughter of Smoke and Bone</option>
                         <option value="sab">Shadow and Bone</option>
