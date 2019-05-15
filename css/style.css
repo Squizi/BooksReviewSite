@@ -9,10 +9,10 @@ h1{
   padding: 50px 0px;
 }
 
-a:hover {
+/*a:hover {
   text-decoration: none;
   color: #ffeaf8;
-}
+}*/
 
 button a{
   color: #9e199e;
@@ -20,6 +20,7 @@ button a{
 
 button:hover a{
   color: #ffeaf8;
+  text-decoration: none
 }
 /*.container {
   margin-right: 10px;
@@ -32,6 +33,7 @@ a.link_text_color{
 
 a.link_text_color:hover{
   color: #9e199e;
+  text-decoration: none
 }
 
 .carousel-item{
