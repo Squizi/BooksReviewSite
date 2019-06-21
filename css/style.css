@@ -9,23 +9,6 @@ h1{
   padding: 50px 0px;
 }
 
-/*a:hover {
-  text-decoration: none;
-  color: #ffeaf8;
-}*/
-
-button a{
-  color: #9e199e;
-}
-
-button:hover a{
-  color: #ffeaf8;
-  text-decoration: none
-}
-/*.container {
-  margin-right: 10px;
-}
-*/
 
 a.link_text_color{
   color: #000000;
